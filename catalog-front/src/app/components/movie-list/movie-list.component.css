@@ -1,0 +1,82 @@
+.content {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movies-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list-header {
+  background-color: #4485ff;
+  color: #fff;
+}
+
+.list-labels th {
+  padding: 10px;
+  text-align: left;
+}
+
+.list-items {
+  border-bottom: 1px solid #ddd;
+}
+
+.list-body .item {
+  padding: 10px;
+}
+
+.item {
+  font-size: 14px;
+}
+
+.button-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.button-new {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button-new:hover {
+  background-color: #0056b3;
+}
+
+.option {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.option:hover {
+  opacity: 70%;
+}
+
+.edit {
+  color: #00a100;
+}
+
+.delete {
+  color: #da0000;
+}

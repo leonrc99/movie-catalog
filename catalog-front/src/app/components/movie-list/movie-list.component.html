@@ -1,0 +1,28 @@
+<div class="content">
+  <h1 class="title">Catálogo de Filmes</h1>
+
+  <table class="movies-list">
+    <thead class="list-header">
+      <tr class="list-labels">
+        <th class="label">Título</th>
+        <th class="label">Diretor</th>
+        <th class="label">Ano</th>
+        <th class="label">Editar</th>
+        <th class="label">Excluir</th>
+      </tr>
+    </thead>
+    <tbody class="list-body">
+      <tr class="list-items" *ngFor="let movie of movies">
+        <td class="item">{{ movie.title }}</td>
+        <td class="item">{{ movie.director }}</td>
+        <td class="item">{{ movie.year }}</td>
+        <td class="item option edit" (click)="updateMovie(movie.id)">Editar</td>
+        <td class="item option delete" (click)="deleteMovie(movie.id)">Excluir</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="button-div">
+    <button class="button-new" (click)="newMovie()">Cadastrar Filme</button>
+  </div>
+</div>
+
