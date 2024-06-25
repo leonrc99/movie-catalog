@@ -1,6 +1,6 @@
-# Catálogo de Filmes - Case Técnico Plusoft
+# Catálogo de Filmes
 
-Este é um projeto de catálogo de filmes desenvolvido como parte de um **Case Técnico**. Ele consiste em uma aplicação web com duas partes: um backend desenvolvido em Spring Boot para fornecer uma API RESTful para manipulação de um catálogo de filmes e um frontend desenvolvido em Angular para interação com o usuário.
+Este é um projeto de catálogo de filmes. Ele consiste em uma aplicação web com duas partes: um backend desenvolvido em Spring Boot para fornecer uma API RESTful para manipulação de um catálogo de filmes e um frontend desenvolvido em Angular para interação com o usuário.
 
 ## Pré-requisitos
 
